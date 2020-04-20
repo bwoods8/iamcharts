@@ -1,0 +1,3 @@
+[submodule "auto-deploy-app"]
+	path = auto-deploy-app
+	url = git@github.com:bwoods8/auto-deploy-app.git
