@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  auto-deploy-app:
+  - apiVersion: v1
+    created: "2020-04-20T13:25:38.579828-05:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 0.7.1
+    description: GitLab's Auto-deploy Helm Chart
+    digest: 77496f887158f944a79474b281419975d39062f23969c46ef304208f923d2fe0
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    name: auto-deploy-app
+    urls:
+    - https://bwoods8.github.io/iamcharts/auto-deploy-app-0.6.1.tgz
+    version: 0.6.1
+generated: "2020-04-20T13:25:38.577436-05:00"
